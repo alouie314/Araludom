@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/alouie314/Araludom/static/css/main.58f2a2eb.css",
-    "main.js": "/alouie314/Araludom/static/js/main.db48db7e.js",
-    "static/media/mod1_side2.jpg": "/alouie314/Araludom/static/media/mod1_side2.1c31c49ec5ddc9c012c3.jpg",
-    "static/media/mod2_side2.jpg": "/alouie314/Araludom/static/media/mod2_side2.48a22f97ddcab460855a.jpg",
-    "static/media/mod2_front.jpg": "/alouie314/Araludom/static/media/mod2_front.1b2b15736c52868b4441.jpg",
-    "static/media/mod1_front.jpg": "/alouie314/Araludom/static/media/mod1_front.0991bdf191868686e002.jpg",
-    "static/media/mod1_side1.jpg": "/alouie314/Araludom/static/media/mod1_side1.1c6935069a5e7987ac73.jpg",
-    "static/media/mod2_side1.jpg": "/alouie314/Araludom/static/media/mod2_side1.93f8d857cada7100377d.jpg",
-    "static/media/mod2_back.jpg": "/alouie314/Araludom/static/media/mod2_back.882b4cb22a3f12429b3c.jpg",
-    "static/media/mod1_back.jpg": "/alouie314/Araludom/static/media/mod1_back.21e1810f14588237b14a.jpg",
-    "static/media/AboutUs.jpg": "/alouie314/Araludom/static/media/AboutUs.df2e162ef32d03b5f29c.jpg",
-    "static/media/Jurisdiction.png": "/alouie314/Araludom/static/media/Jurisdiction.4c1a13ba64fd59aa0cb9.png",
-    "static/media/ModOne.jpg": "/alouie314/Araludom/static/media/ModOne.d2985e894d5f23cf06bc.jpg",
-    "static/media/mod2_plan.png": "/alouie314/Araludom/static/media/mod2_plan.e3b24a2ede97c64ada88.png",
-    "static/media/mod1_plan.png": "/alouie314/Araludom/static/media/mod1_plan.2dc99099ea69ffe1bb98.png",
-    "index.html": "/alouie314/Araludom/index.html",
-    "static/media/sendIcon.svg": "/alouie314/Araludom/static/media/sendIcon.f7343e464b237f5c9fb102297d1e907d.svg",
-    "main.58f2a2eb.css.map": "/alouie314/Araludom/static/css/main.58f2a2eb.css.map",
-    "main.db48db7e.js.map": "/alouie314/Araludom/static/js/main.db48db7e.js.map"
+    "main.css": "/alouie314/Araludom/tree/gh-pages/static/css/main.caa04e4e.css",
+    "main.js": "/alouie314/Araludom/tree/gh-pages/static/js/main.e6484871.js",
+    "static/media/mod1_side2.jpg": "/alouie314/Araludom/tree/gh-pages/static/media/mod1_side2.1c31c49ec5ddc9c012c3.jpg",
+    "static/media/mod2_side2.jpg": "/alouie314/Araludom/tree/gh-pages/static/media/mod2_side2.48a22f97ddcab460855a.jpg",
+    "static/media/mod2_front.jpg": "/alouie314/Araludom/tree/gh-pages/static/media/mod2_front.1b2b15736c52868b4441.jpg",
+    "static/media/mod1_front.jpg": "/alouie314/Araludom/tree/gh-pages/static/media/mod1_front.0991bdf191868686e002.jpg",
+    "static/media/mod1_side1.jpg": "/alouie314/Araludom/tree/gh-pages/static/media/mod1_side1.1c6935069a5e7987ac73.jpg",
+    "static/media/mod2_side1.jpg": "/alouie314/Araludom/tree/gh-pages/static/media/mod2_side1.93f8d857cada7100377d.jpg",
+    "static/media/mod2_back.jpg": "/alouie314/Araludom/tree/gh-pages/static/media/mod2_back.882b4cb22a3f12429b3c.jpg",
+    "static/media/mod1_back.jpg": "/alouie314/Araludom/tree/gh-pages/static/media/mod1_back.21e1810f14588237b14a.jpg",
+    "static/media/AboutUs.jpg": "/alouie314/Araludom/tree/gh-pages/static/media/AboutUs.df2e162ef32d03b5f29c.jpg",
+    "static/media/Jurisdiction.png": "/alouie314/Araludom/tree/gh-pages/static/media/Jurisdiction.4c1a13ba64fd59aa0cb9.png",
+    "static/media/ModOne.jpg": "/alouie314/Araludom/tree/gh-pages/static/media/ModOne.d2985e894d5f23cf06bc.jpg",
+    "static/media/mod2_plan.png": "/alouie314/Araludom/tree/gh-pages/static/media/mod2_plan.e3b24a2ede97c64ada88.png",
+    "static/media/mod1_plan.png": "/alouie314/Araludom/tree/gh-pages/static/media/mod1_plan.2dc99099ea69ffe1bb98.png",
+    "index.html": "/alouie314/Araludom/tree/gh-pages/index.html",
+    "static/media/sendIcon.svg": "/alouie314/Araludom/tree/gh-pages/static/media/sendIcon.f7343e464b237f5c9fb102297d1e907d.svg",
+    "main.caa04e4e.css.map": "/alouie314/Araludom/tree/gh-pages/static/css/main.caa04e4e.css.map",
+    "main.e6484871.js.map": "/alouie314/Araludom/tree/gh-pages/static/js/main.e6484871.js.map"
   },
   "entrypoints": [
-    "static/css/main.58f2a2eb.css",
-    "static/js/main.db48db7e.js"
+    "static/css/main.caa04e4e.css",
+    "static/js/main.e6484871.js"
   ]
 }
