@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alouie314/Araludom/static/css/main.58f2a2eb.css",
-    "main.js": "/alouie314/Araludom/static/js/main.db48db7e.js",
+    "main.js": "/alouie314/Araludom/static/js/main.d83eb146.js",
     "static/media/mod1_side2.jpg": "/alouie314/Araludom/static/media/mod1_side2.1c31c49ec5ddc9c012c3.jpg",
     "static/media/mod2_side2.jpg": "/alouie314/Araludom/static/media/mod2_side2.48a22f97ddcab460855a.jpg",
     "static/media/mod2_front.jpg": "/alouie314/Araludom/static/media/mod2_front.1b2b15736c52868b4441.jpg",
@@ -18,10 +18,10 @@
     "index.html": "/alouie314/Araludom/index.html",
     "static/media/sendIcon.svg": "/alouie314/Araludom/static/media/sendIcon.f7343e464b237f5c9fb102297d1e907d.svg",
     "main.58f2a2eb.css.map": "/alouie314/Araludom/static/css/main.58f2a2eb.css.map",
-    "main.db48db7e.js.map": "/alouie314/Araludom/static/js/main.db48db7e.js.map"
+    "main.d83eb146.js.map": "/alouie314/Araludom/static/js/main.d83eb146.js.map"
   },
   "entrypoints": [
     "static/css/main.58f2a2eb.css",
-    "static/js/main.db48db7e.js"
+    "static/js/main.d83eb146.js"
   ]
 }
