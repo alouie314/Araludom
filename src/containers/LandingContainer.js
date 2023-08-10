@@ -165,8 +165,8 @@ const LandingContainer = () => {
             }}>
               <Button
                 rel='noopener noreferrer'
-                title='ModularaModel'
-                alt='ModularaModel'
+                title='Modulara>'
+                alt='Modulara>'
                 href='./'
                 disableRipple={true}
                 sx={{
@@ -189,8 +189,8 @@ const LandingContainer = () => {
             }}>
               <Button
                 rel='noopener noreferrer'
-                title='Email ModularaModel'
-                alt='Email ModularaModel'
+                title='Email Modulara'
+                alt='Email Modulara'
                 href='mailto:info@modulara.com'
                 disableRipple={true}
                 sx={{

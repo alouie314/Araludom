@@ -26,10 +26,10 @@ const ModularaModel = forwardRef(function ModularaModel({
   const maxSteps = images.length;
 
   const handleNext = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep + 1);
+    activeStep === 4 ? setActiveStep(0) : setActiveStep((prevActiveStep) => prevActiveStep + 1)
   }
   const handleBack = () => {
-    setActiveStep((prevActiveStep) => prevActiveStep - 1);
+    activeStep === 0 ? setActiveStep(4) : setActiveStep((prevActiveStep) => prevActiveStep - 1)
   }
   const handleStepChange = (step) => {
     setActiveStep(step);
@@ -78,7 +78,7 @@ const ModularaModel = forwardRef(function ModularaModel({
             <Button
               size="small"
               onClick={handleNext}
-              disabled={activeStep === maxSteps - 1}
+              // disabled={activeStep === maxSteps - 1}
               sx={{
                 '@media (min-width:600px)': {
                   marginLeft: '150px'
@@ -97,7 +97,7 @@ const ModularaModel = forwardRef(function ModularaModel({
             <Button
               size="small"
               onClick={handleBack}
-              disabled={activeStep === 0}
+              // disabled={activeStep === 0}
               sx={{
                 '@media (min-width:600px)': {
                   marginRight: '150px'

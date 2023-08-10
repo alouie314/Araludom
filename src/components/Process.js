@@ -1,5 +1,12 @@
+import {
+  Create as CreateIcon,
+  Task as TaskIcon,
+  Construction as ConstructionIcon,
+  Key as KeyIcon
+} from '@mui/icons-material'
+import { ToggleButton } from '@mui/material'
 import React, { forwardRef, useState } from 'react'
-import { motion } from "framer-motion";
+import { motion } from "framer-motion"
 // TODO: change icons
 import icon1 from '../images/icon1.png'
 import icon2 from '../images/icon2.png'
@@ -27,7 +34,7 @@ const Process = forwardRef(function Process({
           }}
           className='processCard'
         >
-          <img
+          {/* <img
             className="imgIcon"
             src={icon1}
             title="Design"
@@ -37,7 +44,20 @@ const Process = forwardRef(function Process({
                 setProcessText('designText') :
                 setProcessText('')
             }
-          />
+          /> */}
+          <ToggleButton
+            className='imgIcon'
+            aria-label="Design"
+            alt="Design Icon"
+            selected={processText === 'designText'}
+            onClick={() =>
+              processText === '' || processText !== 'designText' ?
+                setProcessText('designText') :
+                setProcessText('')
+            }
+          >
+            <CreateIcon sx={{ width: '100px', height: '100px', color: 'black'}}/>
+          </ToggleButton>
           <div className="iconTitle">
             Design
           </div>
@@ -53,7 +73,7 @@ const Process = forwardRef(function Process({
           }}
           className='processCard'
         >
-          <img
+          {/* <img
             className="imgIcon"
             src={icon2}
             title="Permit"
@@ -63,7 +83,20 @@ const Process = forwardRef(function Process({
                 setProcessText('permitText') :
                 setProcessText('')
             }
-          />
+          /> */}
+          <ToggleButton
+            className='imgIcon'
+            aria-label="Permit"
+            alt="Permit Icon"
+            selected={processText === 'permitText'}
+            onClick={() =>
+              processText === '' || processText !== 'permitText' ?
+                setProcessText('permitText') :
+                setProcessText('')
+            }
+          >
+            <TaskIcon sx={{ width: '100px', height: '100px', color: 'black'}}/>
+          </ToggleButton>
           <div className="iconTitle">
             Permit
           </div>
@@ -79,7 +112,7 @@ const Process = forwardRef(function Process({
           }}
           className='processCard'
         >
-          <img
+          {/* <img
             className="imgIcon"
             src={icon3}
             title="Build"
@@ -89,7 +122,20 @@ const Process = forwardRef(function Process({
                 setProcessText('buildText') :
                 setProcessText('')
             }
-          />
+          /> */}
+          <ToggleButton
+            className='imgIcon'
+            aria-label="Build"
+            alt="Build Icon"
+            selected={processText === 'buildText'}
+            onClick={() =>
+              processText === '' || processText !== 'buildText' ?
+                setProcessText('buildText') :
+                setProcessText('')
+            }
+          >
+            <ConstructionIcon sx={{ width: '100px', height: '100px', color: 'black'}}/>
+          </ToggleButton>
           <div className="iconTitle">
             Build
           </div>
@@ -105,7 +151,7 @@ const Process = forwardRef(function Process({
           }}
           className='processCard'
         >
-          <img
+          {/* <img
             className="imgIcon"
             src={icon4}
             title="Deliver"
@@ -115,7 +161,20 @@ const Process = forwardRef(function Process({
                 setProcessText('deliverText') :
                 setProcessText('')
             }
-          />
+          /> */}
+          <ToggleButton
+            className='imgIcon'
+            aria-label="Deliver"
+            alt="Deliver Icon"
+            selected={processText === 'deliverText'}
+            onClick={() =>
+              processText === '' || processText !== 'deliverText' ?
+                setProcessText('deliverText') :
+                setProcessText('')
+            }
+          >
+            <KeyIcon sx={{ width: '100px', height: '100px', color: 'black'}}/>
+          </ToggleButton>
           <div className="iconTitle">
             Deliver
           </div>
